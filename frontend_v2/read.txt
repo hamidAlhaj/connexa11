@@ -1,0 +1,12 @@
+# Connexa - quick notes
+1. Activate venv:
+   & C:/Users/Dragon/Desktop/connexa/.venv/Scripts/Activate.ps1
+2. Run backend:
+   cd backend
+   python .\connexa_app.py
+3. Run frontend:
+   cd frontend_v2
+   python -m http.server 8000
+4. Register (PowerShell):
+   $body = @{ username='ali'; email='ali@example.com'; password='pass123' } | ConvertTo-Json
+   $res = Invoke-RestMethod -Uri 'http://localhost:5000/api/register' -Method Post -Headers @{ 'Content-Type'='application/json' } -Body $body

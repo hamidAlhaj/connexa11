@@ -1,0 +1,8 @@
+﻿{
+    "access_token":  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc1NzMwMTU5MywianRpIjoiN2UyZjRmYzgtMGFmMy00ZWY0LThiNDktNGI2ZGFhZDc1YjMwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IjIiLCJuYmYiOjE3NTczMDE1OTMsImNzcmYiOiJjNTY5OGY4ZS0yNmIwLTRhMTEtOTNkZC04YmQyNDczZWMzOWIiLCJleHAiOjE3NTczMDI0OTN9.93XeUoIM0hg_K2EEB8WGyogsMVpHRfO8ZMoEqorcbvg",
+    "user":  {
+                 "email":  "ali@example.com",
+                 "id":  2,
+                 "username":  "ali"
+             }
+}
